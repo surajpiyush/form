@@ -1,0 +1,44 @@
+*{
+    background-color: aqua;
+}
+h1{
+    margin-left: 250px;
+}
+form{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.line1{
+    display: flex;
+    margin-left: 50px;     
+}
+.line1 .myemail{
+    margin-left: 80px;
+}
+
+.line2 {
+    display: flex;
+   margin-left: 20px;
+    margin-top: 20px;
+}
+.line2 .mnpassword{
+    margin-left: 55px;
+}
+.line3 {
+    display: flex;
+   margin-left: 35px;
+    margin-top: 20px;
+}
+.line3 .mdate{
+ margin-left: 85px;
+}
+.line4 {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.line4 button{
+    width: 150px;
+    margin-left: 220px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <script src="myscript.js"></script>
+  </head>
+  <body>
+    <h1>Form Validation</h1>
+    <form action="" name="myform" onsubmit="return myfunction()">
+      <div class="line1">
+        <label for="name"
+          >Name:<input
+            type="text"
+            placeholder="Enter full name"
+            id="myname"
+            name="mname" /><br />
+          <p id="nmsg" style="background-color: red; width: fit-content"></p
+        ></label>
+        <label for="memail" class="myemail"
+          >Email:<input
+            type="email"
+            placeholder="Enter email id"
+            id="memail"
+            name="vname" /><br />
+          <p
+            id="msg"
+            style="background-color: rgb(211, 30, 30); width: fit-content"
+          ></p>
+          <p></p
+        ></label>
+      </div>
+      <div class="line2">
+        <label for="mycontact" class="mcontact"
+          >Contact no:<input
+            type="text"
+            placeholder="Enter contact no."
+            id="mycontact"
+            name="mcontact"
+          />
+          <p id="cmsg" style="background-color: red; width: fit-content"></p>
+        </label>
+        <label for="mypassword" class="mnpassword">
+          Password:<input
+            type="password"
+            placeholder="Enter password"
+            id="mypassword"
+            name="mpassword"
+          />
+          <p id="pmsg" style="background-color: red; width: fit-content"></p>
+        </label>
+      </div>
+      <div class="line3">
+        <label for="cmypassword" class="cpassword"
+          >Confirm
+          <input
+            type="password"
+            placeholder="Confirm password"
+            id="cmypassword"
+            name="cpassword"
+          />
+          <p id="conmsg" style="background-color: red; width: fit-content"></p>
+        </label>
+        <label for="mydate" class="mdate"
+          >DOB:<input type="date" id="mydate" name="mdate"
+        />  <p id="dmsg" style="background-color: red; width:fit-content"></p>  </label>
+      </div>
+      <div class="line4">
+        <div class="gender">
+          male: <input type="checkbox" disabled/> female:<input type="checkbox" />
+          other:<input type="checkbox"  />
+        </div>
+        <br /><br />
+        <label for="btn"
+          ><button id="btn" onclick="myfunction">submit</button></label
+        >
+      </div>
+    </form>
+  </body>
+</html>
